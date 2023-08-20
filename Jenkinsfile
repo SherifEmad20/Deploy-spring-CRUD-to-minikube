@@ -15,6 +15,7 @@ pipeline {
 
             steps {
                 dir("./app") {
+                    sh "chmod +x mvnw"
                     sh "./mvnw test"
                 }
             }
@@ -29,6 +30,7 @@ pipeline {
 
             steps {
                 dir("./app") {
+                    sh "chmod +x mvnw"
                     sh "./mvnw clean"
                     sh "./mvnw install"
                 }
