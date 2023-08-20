@@ -1,5 +1,6 @@
-package com.example.school_system.entities;
+package com.example.school_system.Student;
 
+import com.example.school_system.Course.Course;
 import jakarta.persistence.*;
 
 import java.util.List;

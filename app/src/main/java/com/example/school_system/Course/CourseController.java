@@ -1,7 +1,5 @@
-package com.example.school_system.controllers;
+package com.example.school_system.Course;
 
-import com.example.school_system.entities.Course;
-import com.example.school_system.services.CourseService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

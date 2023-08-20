@@ -1,5 +1,6 @@
-package com.example.school_system.entities;
+package com.example.school_system.Course;
 
+import com.example.school_system.Student.Student;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 

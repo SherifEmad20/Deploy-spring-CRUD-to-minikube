@@ -1,7 +1,5 @@
-package com.example.school_system.controllers;
+package com.example.school_system.Student;
 
-import com.example.school_system.entities.Student;
-import com.example.school_system.services.StudentService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

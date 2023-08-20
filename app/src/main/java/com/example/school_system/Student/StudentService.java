@@ -1,15 +1,12 @@
-package com.example.school_system.services;
+package com.example.school_system.Student;
 
-import com.example.school_system.entities.Course;
-import com.example.school_system.entities.Student;
-import com.example.school_system.repositories.CourseRepo;
-import com.example.school_system.repositories.StudentRepo;
+import com.example.school_system.Course.Course;
+import com.example.school_system.Course.CourseRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class StudentService {
